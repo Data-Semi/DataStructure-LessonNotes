@@ -1,0 +1,9 @@
+
+
+**Time and Space Complexity Analysis**
+Each recursive call to the `reverse_string()` function will create 
+a new set of local variables - first_char, the_rest, sub_string, and reversed_substring. 
+Therefore, the space complexity of a recursive function would always be proportional to the 
+maximum depth of recursion stack.  
+The time complexity for this function will be  O(k*n), where k is a constant and n is the 
+number of characters in the string (depth of recursion stack). 
